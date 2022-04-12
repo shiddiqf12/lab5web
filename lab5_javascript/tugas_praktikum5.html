@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Validasi Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript">
+	function validasiForm() {
+		var nama = document.getElementById("nama").value;
+        var nim = document.getElementById("nim").value;
+		var kelas = document.getElementById("kelas").value;
+		var password = document.getElementById("password").value;
+		if (nama != "" && nim !="" && email !="" && password !="") {
+			return true;
+		}else{
+			alert('HARAP ISI DATA ANDA!');
+		}
+	}
+</script>
+
+</head>
+<body>
+	<div class="container">
+		<center><h1>REGISTER MAHASISWA TI.20.B2</h1></center>
+
+		<form action="#" method="POST" onSubmit="validasiForm()">
+			<fieldset > 
+			<p>
+				<label for="nama">USERNAME : </label>
+				<input type="text" id="nama" name="nama" placeholder="Enter your username">
+			</p>
+			<p>
+				<label for="nim">NIM : </label></b>
+				<input type="text" id="nim" name="nim" placeholder="Enter your nim">
+			</p>
+			<p>
+				<label for="kelas">Kelas: </label></b>
+				<input type="text" id="kelas" name="kelas" placeholder="Enter your class">
+			</p>
+				<p>
+				<label for="password">PASSWORD : </label>
+				<input type="text" id="password" name="password" placeholder="Enter your password">
+			</p>
+
+			<p><input type="submit" value="SIGN IN"></p>
+		</form>
+		</fieldset>
+	</div>	
+</body>
+</html>

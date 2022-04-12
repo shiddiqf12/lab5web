@@ -1,0 +1,43 @@
+/* import google font */
+@import
+url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
+@import
+url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap);
+
+body {
+    font-family:'Open Sans', sans-serif;
+	background-image:url(ikalisa.png);
+    background-position: center;
+}
+.container {
+	width: 18em;
+	margin: 0 auto;
+	box-shadow: 0 0 10em #cccccc;
+	padding: 1em;
+    margin: 2em auto;
+    background: #fff;
+    border-radius: 10px;
+	}
+form p > label {
+	display: inline-block;
+	width: 200px;
+}
+form input[type="text"], form textarea {
+		width: 224px;
+		border: 1px solid #098938;
+		padding: 5px 15px;
+		padding-left: 20px;
+		border-radius: 5px;
+	}
+
+form input[type="submit"] {
+	border: 1px solid #0a6491;
+	background-color: #0f269b;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+fieldset {
+	background-color: lightblue;
+	border-radius: 5px;
+}
